@@ -1,0 +1,12 @@
+.button-item button {
+    width: 100px;
+    height: 30px;
+    background-color: #0F6292;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.button-item {
+    width: 100%;
+    text-align: center;
+}

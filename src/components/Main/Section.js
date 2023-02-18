@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Button/Button'
 import "./Section.css"
 
 const Section = (props) => {
@@ -10,6 +11,9 @@ const Section = (props) => {
         <div className='section-item'>
           <h2>{props.h2}</h2>
             <p>{props.p}</p>
+        </div>
+        <div>
+          <Button/>
         </div>
     </div>
   )
